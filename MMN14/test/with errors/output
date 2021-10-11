@@ -1,0 +1,109 @@
+
+ERROR IN LINE:
+104	.data  2048
+
+
+ERROR IN LINE:
+106	.data  -2049
+
+
+ALL ERRORS IN "a.as" ARE ABOVE
+---------------------------------------------------------------
+
+ERROR IN LINE:
+        sub #5
+
+
+ERROR IN LINE:
+        sub #5,
+
+
+ERROR IN LINE:
+        red
+
+
+ERROR IN LINE:
+        cmp  r1,,r2
+
+
+ERROR IN LINE:
+        add  #5,r1,r3
+
+
+ERROR IN LINE:
+        stop Start
+
+
+YOU USED A RESERVED WORD IN LINE:
+mov:    .data   5
+
+
+YOU USED A RESERVED WORD IN LINE:
+r6:     .data   200
+
+
+ERROR IN LINE:
+1DATA:  .data   300
+
+
+ERROR IN LINE:
+Z7:     .string blabla
+
+
+THE LABEL - "SuperCalifragilisticExpiAlidocious" IS TOO LONG!! IN LINE:
+SuperCalifragilisticExpiAlidocious: .data 4
+
+ERROR IN LINE:
+Z9:     .data
+
+
+ERROR IN LINE:
+        .entry
+
+
+ERROR IN LINE:
+        rts Next
+
+
+ALL ERRORS IN "b.as" ARE ABOVE
+---------------------------------------------------------------
+
+ERROR IN LINE:
+103	        add  Q,r2
+
+
+ERROR IN LINE:
+106	        add  r3,Q
+
+
+ERROR IN LINE:
+109	        add  X,r4
+
+
+ERROR IN LINE:
+112	        add  r5,Y
+
+
+ALL ERRORS IN "c.as" ARE ABOVE
+---------------------------------------------------------------
+
+ERROR IN LINE:
+104	       cmp #2048,DATA1
+
+
+ERROR IN LINE:
+110	       cmp r2,#-2049
+
+
+ALL ERRORS IN "abc.as" ARE ABOVE
+---------------------------------------------------------------
+
+ERROR IN LINE:
+end:     stop %start
+
+
+ALL ERRORS IN "prog.as" ARE ABOVE
+---------------------------------------------------------------
+
+ERROR!!
+THERE ISN'T SUCH FILE - "d.as"
